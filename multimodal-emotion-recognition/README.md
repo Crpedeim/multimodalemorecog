@@ -2,7 +2,7 @@
 
 An end-to-end **multimodal emotion recognition** pipeline on **CMU-MOSEI**, fusing text, audio, and visual streams to classify sentiment — and a study of *why* a sophisticated cross-modal attention model can be beaten by a naive baseline.
 
-**The headline finding:** a carefully engineered Cross-Modal Attention network with dynamic gating (**0.670 weighted F1**) was *outperformed* by simple feature concatenation (**0.673 weighted F1**). This repo documents that result and provides a gradient-level diagnosis of the failure mode — **"Modality Starvation."** Full write-up in the [IEEE-format paper](./report.pdf).
+**The headline finding:** a carefully engineered Cross-Modal Attention network with dynamic gating (**0.670 weighted F1**) was *outperformed* by simple feature concatenation (**0.673 weighted F1**). This repo documents that result and provides a gradient-level diagnosis of the failure mode — **"Modality Starvation."** 
 
 ---
 
